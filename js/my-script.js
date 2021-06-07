@@ -10,5 +10,6 @@ price_calculator.addEventListener('click' , function(){
             burger_price += parseInt(add_ingredient[x].value);
         }
     }
-    final_price.innerHtml = burger_price
+    final_price.innerHTML = burger_price
+
 })
