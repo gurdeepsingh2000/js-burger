@@ -18,9 +18,7 @@ price_calculator.addEventListener('click' , function(){
         alert('Il coupon è stato correttamente validato')
         discounted_price = burger_price * 50 / 100;             // CALCOLO DEL PREZZO SCONTATO (50%)
         final_price.innerHTML ='Il prezzo finale è ' + discounted_price;
-    }else{
+    }else if(codeDiscount.value.length > 0){
         alert('Attenzione hai inserito un codice coupon errato!')
-        final_price.innerHTML = 'Il prezzo finale è ' + burger_price
     }
-
 })

@@ -1,0 +1,16 @@
+.bg-color-main{
+    background-color: #FFF5E2;
+}
+
+.first-container{
+    background-color: green;
+}
+
+.first-container h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title-burger{
+    background-color: #FDBB40;
+}
