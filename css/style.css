@@ -14,6 +14,24 @@ body{
     transform: translate(50% , -50%); 
 }
 
+.second-container {
+    background-color: white;
+}
+
+.create-burger{
+    background-color: transparent;
+    border: 0px solid;
+    color: black;
+}
+
+.checkbox-extraprice {
+    font-size: 30px;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
 
 
 
