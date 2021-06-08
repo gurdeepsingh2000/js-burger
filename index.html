@@ -113,26 +113,39 @@
                     </form>
                 </div>
 
-                <div>
-                    <label for="discount-coupon">Discount Coupon</label>
-                    <input type="text" id="discount-coupon" name="coupon">
+                <div class="discount-typebox mt-5">
+                    <label for="discount-coupon"><span id="discount-txt">Discount Coupon</span></label>
+                    <input class="check_type mx-1" type="text" id="discount-coupon" name="coupon" placeholder="12345ABCDEF">
                 </div>
 
-                <div>
+                <div class="calculate-button mt-5 mb-5">
                     <button class="calculate-price-btn">calculate</button>
                 </div>
+            </div>     
             </div>
               </div>
-        </div>
     </section>
 
-    <div id ='final-price'></div>
+
+
+        <div class="container mx-0">
+            <div class="row">
+                <div class="col-6 color-footer py-4">
+                    <div class="row">
+                            <div class="col-6">
+                                <h2 class="txt-price">Your price</h2>
+                            </div>
+                            <div class="col-6 total-price px-5">
+                                <div id ='final-price'></div>
+                        </div>
+                    </div>
+             </div>
+          </div>
+       </div>
 
 
 
     <script type="text/javascript" src="./js/my-script.js"></script>
-</div>
-</div>  
-</div>
+
 </body>
 </html>
