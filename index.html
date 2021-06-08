@@ -11,65 +11,78 @@
 </head>
 <body>
 
-    <div class="bg-color-main">
-        <div class="container-fluid">
-            <div class="row col-6 first-container ">
-
-                <header class="row g-0 title-burger">
-                    <h1 class="mt-5 py-4 px-5">Create your burger</h1>
-                    <div class="burger-logo">
-                        <img src="./img/burger-top.png" alt="Burger logo">
+    <div class="container mx-0">
+        <div class="row">
+            <div class="col-6 left-container">
+                <div class="row position-relative">
+                    <div class="col-8 px-5 ">
+                        <h1 class="py-4 mt-5">Create Your Burger</h1>
                     </div>
-                </header>
-
-    
-    <div>
-        <form>
-            <label for="box-cheese">Cheese</label>
-            <input type="checkbox" class="check-priceup" 
-            id="box-ingredient1" name="box-cheese" value= "4">
-            
-            <label for="box-egg">Egg</label>
-            <input type="checkbox" class="check-priceup" 
-            id="box-ingredient2" name="box-egg" value= "3">
-            
-            <label for="box-mustard">Mustard</label>
-            <input type="checkbox" class="check-priceup" 
-            id="box-ingredient3" name="box-mustard" value= "5">
-        </form>
+                    <div class="col-4">
+                        <div class="logo-container position-absolute top-50">
+                            <img src="./img/burger-top.png" alt="burger-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div>
-        <form>
-            <label for="box-tomato">Tomato</label>
-            <input type="checkbox" class="check-priceup" 
-            id="box-ingredient4" name="box-tomato" value="1">
-            
-            <label for="box-lettuce">Lettuce</label>
-            <input type="checkbox" class="check-priceup" 
-            id="box-ingredient5" name="box-lettuce" value="6">
-            
-            <label for="box-ketchup">Ketchup</label>
-            <input type="checkbox" class="check-priceup" 
-            id="box-ingredient6" name="box-ketchup" value="9">
-        </form>
-    </div>
 
-    <div>
-        <label for="discount-coupon">Discount Coupon</label>
-        <input type="text" id="discount-coupon" name="coupon">
-    </div>
+    <section class="container">
+        <div class="row">
+            <div class="col-6">
 
-    <div>
-        <button class="calculate-price-btn">calculate</button>
-    </div>
+                    <form>
+                        <label for="box-cheese">Cheese</label>
+                        <input type="checkbox" class="check-priceup" 
+                        id="box-ingredient1" name="box-cheese" value= "4">
+                        
+                        <label for="box-egg">Egg</label>
+                        <input type="checkbox" class="check-priceup" 
+                        id="box-ingredient2" name="box-egg" value= "3">
+                        
+                        <label for="box-mustard">Mustard</label>
+                        <input type="checkbox" class="check-priceup" 
+                        id="box-ingredient3" name="box-mustard" value= "5">
+                    </form>
+                </div>
+
+                <div>
+                    <form>
+                        <label for="box-tomato">Tomato</label>
+                        <input type="checkbox" class="check-priceup" 
+                        id="box-ingredient4" name="box-tomato" value="1">
+                        
+                        <label for="box-lettuce">Lettuce</label>
+                        <input type="checkbox" class="check-priceup" 
+                        id="box-ingredient5" name="box-lettuce" value="6">
+                        
+                        <label for="box-ketchup">Ketchup</label>
+                        <input type="checkbox" class="check-priceup" 
+                        id="box-ingredient6" name="box-ketchup" value="9">
+                    </form>
+                </div>
+
+                <div>
+                    <label for="discount-coupon">Discount Coupon</label>
+                    <input type="text" id="discount-coupon" name="coupon">
+                </div>
+
+                <div>
+                    <button class="calculate-price-btn">calculate</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div id ='final-price'></div>
+
+
 
     <script type="text/javascript" src="./js/my-script.js"></script>
 </div>
 </div>  
 </div>
-
 </body>
 </html>

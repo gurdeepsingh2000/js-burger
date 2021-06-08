@@ -1,4 +1,4 @@
-.bg-color-main{
+body{
     background-color: #FFF5E2;
 }
 
@@ -6,11 +6,16 @@
     background-color: green;
 }
 
-.first-container h1{
-    font-size: 50px;
-    font-weight: bold;
+.left-container{
+    background-color: #FDBB40 ;
 }
 
-.title-burger{
-    background-color: #FDBB40;
+.logo-container img{
+    transform: translate(50% , -50%); 
 }
+
+
+
+
+
+
