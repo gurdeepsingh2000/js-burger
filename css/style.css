@@ -25,14 +25,30 @@ body{
 }
 
 .checkbox-extraprice {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 input[type=checkbox] {
     transform: scale(1.5);
 }
 
+.img-container{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+.img-container img{
+    width: 100%;
+}
 
+.ingredient{
+    font-weight: 600;
+}
+
+.add-text{
+    color: #FA607E;
+    font-weight: 600;
+}
 
 
 
