@@ -2,7 +2,6 @@ var burger_price = 50; //PREZZO DI PARTENZA DELL'HAMBURGER
 var price_calculator = document.getElementsByClassName('calculate-price-btn')[0]; //BOTTONE CALCOLA PREZZO FINALE
 var final_price = document.getElementById('final-price')            //PREZZO FINALE
 var discount_coupon = 'COUPON50'                //CODICE DEL COUPON DA INSERIRE
-var burgerAssignedName = document.getElementByClass('create-burger')[0];  //NOME DEL BURGER ASSEGNATO DALL'UTENTE
 
 price_calculator.addEventListener('click' , function(){
     var add_ingredient = document.getElementsByClassName('check-priceup');  //CHECKBOX DEI INGREDIENTI EXTRA
